@@ -10,6 +10,9 @@
 	
 </head>
 <body>
+	<div id="nameNUID">
+        Full Name: Yuxi Liu <br> NUID: 002309180
+    </div>
 	<table id="myTable">
 		<tr>
 			<th></th>
@@ -18,9 +21,10 @@
 			<th>AWARD<br/>STATUS</th>
 			<th>SEMESTER</th>
 			<th>TYPE</th>
-			<th>BUDGET<br />#</th>
+			<th>BUDGET<br />#</th>	
 			<th>PERCENTAGE</th>
 			<th>DELETE</th>
+			<th>EDIT</th>
 		</tr>
 		<tr>
 			<td><input type="checkbox" /><br /><br /><img src="down.png" width="25px" /></td>
@@ -32,6 +36,7 @@
 			<td>12345</td>
 			<td>100%</td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr class="dropDownTextArea"><td colspan="8">
 			Advisor:<br /><br />
@@ -42,7 +47,8 @@
 			Comments:<br /><br /><br />
 			Award Status:<br /><br /><br />
 		</td></tr>
-		<tr bgcolor="orange">
+		<!-- <tr bgcolor="orange"> -->
+			<tr>
 			<td><input type="checkbox" checked/><br /><br /><img src="down.png" width="25px" /></td>
 			<td>Student 2</td>
 			<td>Teacher 2</td>
@@ -51,7 +57,11 @@
 			<td>TA</td>
 			<td>23456</td>
 			<td>100%</td>
-			<td><button>Delete</button></td>
+			<!-- <td><button>Delete</button></td>
+			<td><button>Edit</button></td> -->
+			<td></td>
+			<td></td>
+
 		</tr>
 		<tr class="dropDownTextArea"><td colspan="8">
 			Advisor:<br /><br />
@@ -72,6 +82,7 @@
 			<td>34567</td>
 			<td>100%</td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr class="dropDownTextArea"><td colspan="8">
 			Advisor:<br /><br />
@@ -86,7 +97,7 @@
 
 	<br /><br />
 	
-	<button id="button">SUBMIT SELECTED AWARDS</button>
+	<button id="button" disabled>SUBMIT SELECTED AWARDS</button>
 	<button id="add">Add New Student</button>
 
 	<nav class="socialmediaicons"></nav>
